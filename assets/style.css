@@ -15,11 +15,15 @@ body {
   
 }
 
+p {
+  font-size: 1.2rem;
+}
 .container {
   margin: 0 auto;
   max-width: 120rem;
   padding: 3rem 6rem;
   background-color:#fff0f6;
+  position:relative;
  
 }
 
@@ -36,7 +40,6 @@ body {
   font-style:italic;
   font-size:1.4rem;
   
-
 }
 
 .nav-bar li, a {
@@ -51,7 +54,6 @@ ul {
   font-size: 1.2rem;
 
 }
-
 
 
 h2 {
@@ -80,3 +82,14 @@ h3 {
   width:50rem;
 }
 
+.contact-info, a {
+ color:#000;
+}
+.footer {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.course-logo {
+  height:2rem;
+}
