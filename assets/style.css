@@ -35,10 +35,11 @@ p {
 
 .nav-bar {
   display:flex;
-  justify-content:space-between;
+ 
+  justify-content:space-evenly;
   list-style:none;
   font-style:italic;
-  font-size:1.4rem;
+  font-size:1rem;
   
 }
 
@@ -46,6 +47,7 @@ p {
   text-decoration:none;
   flex-direction:column;
   margin: 2rem 0;
+
 
 }
 
@@ -92,4 +94,12 @@ h3 {
 
 .course-logo {
   height:2rem;
+}
+
+.cv-photo {
+  height:100px;
+  position:absolute;
+  top:1rem;
+  right:1rem;
+  border-radius:20%
 }
